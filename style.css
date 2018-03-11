@@ -1,0 +1,79 @@
+*{
+	font-family: 'Mukta Malar', sans-serif;
+}
+
+h1{
+	margin-left: 46%;
+}
+
+#arrastar {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	margin: 10px 10px 10px 10px;
+	background: #FF5500;
+	text-align: center;
+	color: #fff;
+	border-radius: 50px;
+}
+
+#soltar {
+	position: absolute;
+	margin: 100px 10px 10px 600px;
+	width: 200px;
+	height: 200px;
+	background: #777777;
+	color: #fff;
+	text-align: center;
+	border-radius: 50px;
+}
+
+#contenedor {
+	position: absolute;
+	left: 35%;
+	border: 15px solid black;
+}
+
+.row {
+	display: inline-block;
+}
+
+.col-1 {
+	display: inline-block;
+	width: 82px;
+	height: 80px;
+	background-color: #01579B;
+}
+
+.col-2 {
+	display: inline-block;
+	width: 82px;
+	height: 80px;
+	background-color: white;
+}
+
+.ficha1 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 25px;
+   -webkit-box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);
+}
+
+.ficha2 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 25px;
+   -webkit-box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);
+}
